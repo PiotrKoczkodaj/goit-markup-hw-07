@@ -137,7 +137,10 @@ ul
   margin-left: 0;
   
 }
- .logo_span {
+ .footer-list-logo_span {
+  color: var(--mark-color);
+}
+.logo_span {
   color: var(--mark-color);
 }
 .first-nav 
@@ -189,11 +192,11 @@ ul
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s;
 }
-.first-nav-item-first-child:hover
+.first-list-header_link:hover
 {
   color: var(--mark-color);
 }
-.first-nav-item-first-child:focus
+.first-list-header_link:focus
 {
   color: var(--mark-color);
 }
@@ -489,7 +492,7 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
 }
 /*===================================END OF MAIN CONTAINER============================================*/
 
-.logo-footer
+.footer-list-logo
 {
   font-weight: 700;
   font-size: 26px;
@@ -509,7 +512,7 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
   margin-right: 0;
   list-style-type: none;
 }
-.footer-list-item-paragraph
+.footer-list-address
 {
     font-size: 14px;
     line-height: 1.714;
@@ -528,7 +531,7 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
   justify-content: flex-start;
 }
 
-  .footer-list-item 
+  .footer-list_item 
 {
   font-size: 14px;
   line-height: 1.714;
@@ -549,7 +552,7 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
   margin-bottom: 60px;
   list-style-type: none;
 }
-.footer-list-item-tel-link
+.footer-list-item-phone_link
 {
     font-size: 14px;
     line-height: 1.714;
@@ -559,11 +562,11 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
     color: var(--third-color); 
 }
 
-.footer-list-item-tel-link:hover
+.footer-list-item-phone_link:hover
 {
 color: var(--mark-color);
 }
-.footer-list-item-tel-link:focus
+.footer-list-item-phone_link:focus
 {
   color: var(--mark-color);
 }
@@ -712,7 +715,7 @@ justify-content:center
   
 }
 
-.link-icon-workers
+.gallery-workers-socials_link
 {
   fill: var(--icons-fill);
   width: 44px;
@@ -728,11 +731,11 @@ justify-content:center
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0s;
 }
-.link-icon-workers:hover
+.gallery-workers-socials_link:hover
 {
   fill: var(--white-color)
 }
-.link-icon-workers:focus {
+.gallery-workers-socials_link:focus {
   fill: var(--white-color);
   background-color: var(--mark-color)
 }
@@ -845,15 +848,17 @@ font-family: var(--main-font);
 margin-bottom: 20px;
 margin-left: 24px;
 }
-.footer-list-item-mail-link{
+.footer-list-item_mail
+{
   text-decoration-line: underline;
   color: var(--third-color);
   list-style-type: none;
+  text-decoration: none;
 }
-.footer-list-item-mail :hover {
+.footer-list-item_mail:hover {
   color: var(--mark-color);
 }
-.footer-list-item-mail :focus {
+.footer-list-item_mail:focus {
   color: var(--mark-color);
 }
 
@@ -993,7 +998,7 @@ margin-left: 24px;
   fill: currentColor;
 }
 
-.icon-gallery-workers-list-item
+.gallery-workers-socials_item
 {
   width: 44px;
   height: 44px;
@@ -1004,7 +1009,7 @@ margin-left: 24px;
   margin-right: 10px;
 
 }
-.icon-gallery-workers-list-item:hover
+.gallery-workers-socials_item:hover
 {
   background-color: var(--mark-color);
   cursor: pointer;
@@ -1028,7 +1033,7 @@ margin-left: 24px;
 {
   border: #212121 solid 4px;
 }
-.fourth-section-list-item:not(:first-child)
+.fourth-section-list_item
 {
   list-style-type: none;
   width: 170px;
@@ -1037,30 +1042,14 @@ margin-left: 24px;
   margin: 0;
   margin-left: 30px;
 }
-.fourth-section-list-item-first
-{
-  list-style-type: none;
-  margin-left: 0;
-  margin-right: 0;
-}
+
 .fourth-section-list
 {
   display: flex;
   margin-top: 50px;
   
 }
-
-.fourth-list-icon-four:hover {
-  fill: var(--mark-color)
-}
-.fourth-list-icon-four:focus {
-  fill: var(--mark-color)
-}
-.fourth-list-icon
-{
-  margin: 0;
-}
-.fourth-section-link
+.fourth-section-list_link
 {
   width: 170px;
   height: 92px; 
@@ -1076,12 +1065,12 @@ margin-left: 24px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.fourth-section-link:hover
+.fourth-section-list_link:hover
 {
 border: var(--mark-color) solid 1px;
 fill: var(--mark-color);
 }
-.fourth-section-link:focus {
+.fourth-section-list_link:focus {
   border: var(--mark-color) solid 1px;
   fill: var(--mark-color);
 }
