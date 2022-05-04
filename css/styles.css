@@ -506,7 +506,7 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
   display: block;
   margin-top: 60px;
 }
-.footer-list-item-right-side
+.footer-list-socials
 {
   margin-left: 70px;
   margin-right: 0;
@@ -531,14 +531,21 @@ box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 
   justify-content: flex-start;
 }
 
-  .footer-list_item 
+  .footer-list-left-side
 {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   list-style-type: none;
   color: var(--white-color);
- 
+}
+.footer-list-email
+{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: var(--white-color);
 }
  .first-footer .footer-list
 {
@@ -745,7 +752,7 @@ justify-content:center
   background-color: var(--mark-color);
   color: var(--white-color)
 }
-.link-icon-footer
+.icons-footer-list_link
 {
   fill: var(--white-color);
   width:44px;
@@ -848,17 +855,17 @@ font-family: var(--main-font);
 margin-bottom: 20px;
 margin-left: 24px;
 }
-.footer-list-item_mail
+.footer-list-email_link
 {
   text-decoration-line: underline;
   color: var(--third-color);
   list-style-type: none;
   text-decoration: none;
 }
-.footer-list-item_mail:hover {
+.footer-list-email_link:hover {
   color: var(--mark-color);
 }
-.footer-list-item_mail:focus {
+.footer-list-email_link:focus {
   color: var(--mark-color);
 }
 
@@ -1078,7 +1085,7 @@ fill: var(--mark-color);
 {
   display: flex;
 }
-.text-footer
+.footer-list-socials_text
 {
   color: var(--white-color);
   font-size: 14px;
@@ -1137,7 +1144,7 @@ fill: var(--mark-color);
 {
   margin: 0;
 }
-.icons-footer-list-item
+.icons-footer-list_item
 {
   list-style-type: none;
   fill: white;
@@ -1154,12 +1161,12 @@ fill: var(--mark-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0s;
 }
-.icons-footer-list-item:hover
+.icons-footer-list_item:hover
 {
   background-color: var(--mark-color);
   cursor: pointer;
 }
-.icons-footer-list-item:focus {
+.icons-footer-list_item:focus {
   background-color: var(--mark-color);
   cursor: pointer;
 }
@@ -1178,7 +1185,7 @@ fill: var(--mark-color);
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ZADANIE DOMOWE 6@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-.newsletter-text
+.newsletter-form_text
 {
   position: relative;
   width: 207px;
@@ -1193,7 +1200,7 @@ fill: var(--mark-color);
   color: var(--white-color);
   margin-bottom: 20px;
 }
-.newsletter-input
+.newsletter-form_input
 {
   width: 358px;
   height: 50px;
@@ -1231,7 +1238,7 @@ fill: var(--mark-color);
   
 
 }
-.icon-send-svg
+.newsletter-button_icon
 {
   width: 24px;
   height: 24px;
@@ -1245,7 +1252,7 @@ fill: var(--mark-color);
   display: flex;
   align-items: center;
 }
-.newsletter-button .text-button-newsletter
+.newsletter-button_text
 {
   position: relative;
   top: -3px;
