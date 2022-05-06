@@ -1,0 +1,31 @@
+.first-gallery-index {
+    display: flex;
+    margin-top: 50px;
+    list-style-type: none;
+    margin-bottom: 94px;
+    justify-content: center;
+}
+.first-gallery-index__item {
+    margin-left: 30px;
+    margin-right: 0;
+    position: relative;
+}
+.first-gallery-index__text {
+    background-color: rgba(47, 48, 58, 0.8);
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-weight: 700;
+    width: 370px;
+    height: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 4px;
+}
+.first--child {
+    margin-left: 0;
+}
