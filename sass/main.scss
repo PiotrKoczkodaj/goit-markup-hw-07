@@ -6,6 +6,7 @@
 @import "./base/blocks";
 @import "./base/first--child";
 @import "./base/last--child";
+@import "./base/footer-list";
 
 
 
@@ -21,9 +22,14 @@
 @import "./components/first-gallery-index";
 @import "./components/third-header";
 @import "./components/gallery-workers-list";
+@import "./components/fourth-section-header";
+@import "./components/fourth-section-list";
+@import "./components/footer-list-first";
 
 @import "./layout/first-block";
 @import "./layout/second-block";
 @import "./layout/header-part";
 @import "./layout/third-section";
+@import "./layout/fourth-section";
+@import "./layout/end-of-page";
 

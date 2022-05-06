@@ -5,13 +5,20 @@
     letter-spacing: 0.03em;
     font-family: var(--secondary-font);
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--mark-color);
     margin-top: 24px;
-    margin-bottom: 24px;
-    display: flex;
     margin-right: 0;
     margin-left: 0;
 }
 .logo__span {
-    color: var(--mark-color);
+    color: var(--main-color)
 }
+.logo.logo--footer {
+    display: block;
+    margin-top: 68px;
+    margin-bottom: 0;
+    color: var(--white-color);
+}
+ .logo__footer {
+     color: var(--mark-color);
+ }

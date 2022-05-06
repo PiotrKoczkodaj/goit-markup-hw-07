@@ -1,0 +1,35 @@
+  .footer-list-first {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: var(--white-color);
+  }
+    .footer-list-first__text {
+      font-size: 14px;
+      line-height: 1.714;
+      letter-spacing: 0.03em;
+      list-style-type: none;
+      color: var(--white-color);
+      margin-top: 20px;
+    }
+        .footer-list-first__email {
+          font-size: 14px;
+          line-height: 1.714;
+          letter-spacing: 0.03em;
+          list-style-type: none;
+          color: var(--white-color);
+        }
+                .footer-list-first__email--link {
+                  text-decoration-line: underline;
+                  color: var(--third-color);
+                  list-style-type: none;
+                  text-decoration: none;
+                }
+        
+      .footer-list-first__email--link:hover {
+                  color: var(--mark-color);
+            }
+      .footer-list-first__email--link:focus {
+                  color: var(--mark-color);
+     }
