@@ -1,0 +1,48 @@
+.modal {
+    width: 528px;
+    height: 581px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+    opacity: 1;
+}
+.modal__text {
+    width: 448px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 40px 40px 0px 40px;
+    position: absolute;
+}
+
+.close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 8px;
+    margin-top: 8px;
+    position: relative;
+    left: 489px;
+}
+.close-btn__icon {
+    position: absolute;
+    top: 5px;
+    left: 2px;
+}

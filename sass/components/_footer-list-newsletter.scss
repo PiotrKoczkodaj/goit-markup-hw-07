@@ -41,7 +41,11 @@
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
-
+.footer-list-newsletter__form--input:focus
+{
+    border-color: var(--mark-color);
+    outline:none;
+}
 .footer-list-newsletter__form--button {
     width: 200px;
     height: 50px;

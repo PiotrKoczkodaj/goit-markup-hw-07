@@ -7,6 +7,7 @@
 @import "./base/first--child";
 @import "./base/last--child";
 @import "./base/footer-list";
+@import "./base/backdrop";
 
 
 
@@ -22,12 +23,19 @@
 @import "./components/first-gallery-index";
 @import "./components/third-header";
 @import "./components/gallery-workers-list";
+@import "./components/workers-figcaption";
+@import "./components/gallery-workers-socials";
 @import "./components/fourth-section-header";
 @import "./components/fourth-section-list";
 @import "./components/footer-list-first";
 @import "./components/footer-list-socials";
 @import "./components/footer-list-newsletter";
-@import "./components/workers-figcaption";
+@import "./components/button-list";
+@import "./components/portfolio-gallery";
+@import "./components/modal";
+@import "./components/form-modal";
+
+
 
 @import "./layout/first-block";
 @import "./layout/second-block";
