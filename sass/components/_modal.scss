@@ -15,19 +15,18 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
     opacity: 1;
+    &__text {
+            width: 448px;
+            height: 23px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.15;
+            text-align: center;
+            letter-spacing: 0.03em;
+            margin: 40px 40px 0px 40px;
+            position: absolute;
+        }
 }
-.modal__text {
-    width: 448px;
-    height: 23px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin: 40px 40px 0px 40px;
-    position: absolute;
-}
-
 .close-btn {
     width: 30px;
     height: 30px;
@@ -40,9 +39,9 @@
     margin-top: 8px;
     position: relative;
     left: 489px;
-}
-.close-btn__icon {
-    position: absolute;
-    top: 5px;
-    left: 2px;
+    &__icon {
+            position: absolute;
+            top: 5px;
+            left: 2px;
+        }
 }

@@ -3,23 +3,24 @@
     background-color: var(--white-color);
     padding-top: 30px;
     border-radius: 4px;
+    &__name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.187;
+            text-align: center;
+            letter-spacing: 0.03em;
+            margin-left: 99px;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+                &__occupation {
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.875;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: var(--third-color);
+                    padding-bottom: 16px;
+                }
 }
-.workers-figcaption__name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.187;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-left: 99px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-.workers-figcaption__occupation {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.875;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--third-color);
-    padding-bottom: 16px;
-}
+

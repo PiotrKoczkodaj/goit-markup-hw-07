@@ -3,39 +3,39 @@
     display: flex;
     margin-top: 50px;
     justify-content: center;
-}
-.fourth-section-list__item {
-    list-style-type: none;
-    width: 170px;
-    height: 92px;
-    display: flex;
-    margin: 0;
-    margin-left: 30px;
+    &__item {
+            list-style-type: none;
+            width: 170px;
+            height: 92px;
+            display: flex;
+            margin: 0;
+            margin-left: 30px;
+        }
+                &__link {
+                    width: 170px;
+                    height: 92px;
+                    border: var(--icons-fill) solid 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 4px;
+                    fill: var(--icons-fill);
+                    transition-property: fill, border-color;
+                    transition-duration: 250ms;
+                    transition-delay: 0s;
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+                                &__link:hover {
+                                    border: var(--mark-color) solid 1px;
+                                    fill: var(--mark-color);
+                                }
+                
+                                &__link:focus {
+                                    border: var(--mark-color) solid 1px;
+                                    fill: var(--mark-color);
+                                }
 }
 .first--child {
     margin-left: 0;
-
-}
-.fourth-section-list__link {
-    width: 170px;
-    height: 92px;
-    border: var(--icons-fill) solid 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    fill: var(--icons-fill);
-    transition-property: fill, border-color;
-    transition-duration: 250ms;
-    transition-delay: 0s;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.fourth-section-list__link:hover {
-    border: var(--mark-color) solid 1px;
-    fill: var(--mark-color);
 }
 
-.fourth-section-list__link:focus {
-    border: var(--mark-color) solid 1px;
-    fill: var(--mark-color);
-}

@@ -2,19 +2,7 @@
     background-color: var(--white-color);
     border-bottom: 1px solid #ECECEC;
     margin: 0 auto;
-}
-.active-portfolio::after {
-    content: "";
-    height: 4px;
-    width: 53px;
-    border-radius: 2px;
-    background-color: var(--mark-color);
-    display: block;
-    position: absolute;
-    bottom: -1px;
-    right: 99px;
-}
-
-.header-part .container {
-    display: flex;
+    & .container {
+            display: flex;
+        }
 }

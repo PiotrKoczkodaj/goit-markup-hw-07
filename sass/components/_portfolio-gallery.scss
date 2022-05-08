@@ -5,18 +5,17 @@
     list-style-type: none;
     margin-top: 94px;
     margin-bottom: 94px;
-}
-.portfolio-gallery__item {
-    position: relative;
-    margin-top: 30px;
-}
-.portfolio-gallery__item:hover {
-    cursor: pointer;
-}
-
-.portfolio-gallery__item:hover .overlay-portfolio {
-    transform: translateX(0);
-    cursor: pointer;
+    &__item {
+            position: relative;
+            margin-top: 30px;
+        }
+                &__item:hover {
+                    cursor: pointer;
+                }
+                                &__item:hover .overlay-portfolio {
+                                    transform: translateX(0);
+                                    cursor: pointer;
+                                }
 }
 .overflow {
     position: absolute;
@@ -24,14 +23,15 @@
     overflow: hidden;
     height: 300px;
     width: 370px;
+    &__text {
+            width: 301px;
+            height: 196px;
+            position: absolute;
+            left: 24px;
+            top: 49px
+        }
 }
-.overflow__text {
-    width: 301px;
-    height: 196px;
-    position: absolute;
-    left: 24px;
-    top: 49px
-}
+
 .overlay-portfolio {
     position: absolute;
     width: 100%;
@@ -54,21 +54,22 @@
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    &__name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            margin-left: 24px;
+        }
+                &__text {
+                    font-size: 16px;
+                    line-height: 1.875;
+                    letter-spacing: 0.03em;
+                    color: var(--third-color);
+                    font-weight: 400;
+                    font-family: var(--main-font);
+                    margin-bottom: 20px;
+                    margin-left: 24px;
+                }
 }
-.portfolio-gallery-figcaption__name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    margin-left: 24px;
-}
-.portfolio-gallery-figcaption__text {
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: var(--third-color);
-    font-weight: 400;
-    font-family: var(--main-font);
-    margin-bottom: 20px;
-    margin-left: 24px;
-}
+

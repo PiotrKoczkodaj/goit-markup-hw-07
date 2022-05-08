@@ -14,15 +14,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s;
-}
-.header-tel:hover {
-    color: var(--mark-color);
+    &__icon {
+            margin-right: 10px;
+            fill: currentColor;
+        }
+                &:hover {
+                    color: var(--mark-color);
+                }
+        
+                &:focus {
+                    color: var(--mark-color);
+                }
 }
 
-.header-tel:focus {
-    color: var(--mark-color);
-}
-.header-tel__icon {
-    margin-right: 10px;
-    fill: currentColor;
-}
