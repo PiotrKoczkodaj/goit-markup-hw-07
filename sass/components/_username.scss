@@ -1,0 +1,79 @@
+.form-modal {
+    position: relative;
+    top: 75px;
+    right: 0px;
+    margin-left: 40px;
+    &__username-text {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.166;
+            color: var(--third-color);
+            letter-spacing: 0.01em;
+            position: relative;
+            top: -21px;
+            margin-top: 12px;
+        }
+            &__username-icon {
+                    position: relative;
+                    top: -19px;
+                    right: 452px;
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 12px;
+                    transition-property: fill;
+                    transition-duration: 250ms;
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+                                &__username-input {
+                                    width: 448px;
+                                    height: 40px;
+                                    border-radius: 4px;
+                                    border: 1px solid rgba(33, 33, 33, 0.2);
+                                    box-sizing: border-box;
+                                    position: relative;
+                                    top: -24px;
+                                    margin-top: 4px;
+                                    outline: 0;
+                                    padding-left: 42px;
+                                    transition-property: border;
+                                    transition-duration: 250ms;
+                                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                                }
+                                                                &__username-input:focus {
+                                                                    border: 2px solid var(--mark-color);
+                                                                }
+                                                                                                                                &__username-input:focus+&__username-icon {
+                                                                                                                                    fill: var(--mark-color);
+                                                                                                                                }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-modal__button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--mark-color);
+    cursor: pointer;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    position: relative;
+    top: 18px;
+    left: 125px;
+}

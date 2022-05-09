@@ -1,0 +1,53 @@
+.user-phone{
+&__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.166;
+        color: var(--third-color);
+        letter-spacing: 0.01em;
+        position: relative;
+        top: -24px;
+        margin-top: 10px;
+    }
+
+    &__input {
+        width: 448px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        box-sizing: border-box;
+        position: relative;
+        top: -26px;
+        margin-top: 4px;
+        outline: none;
+        padding-left: 42px;
+        transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+    &__input:focus {
+        border: 2px solid var(--mark-color);
+    }
+
+    &__icon {
+        position: relative;
+        top: -21px;
+        right: 452px;
+        width: 18px;
+        height: 18px;
+        margin-left: 12px;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__input:focus+&__icon {
+        fill: var(--mark-color);
+    }
+
+
+
+}
+

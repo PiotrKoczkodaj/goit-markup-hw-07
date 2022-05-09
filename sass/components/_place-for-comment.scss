@@ -1,0 +1,40 @@
+.place-for-comment{
+    font-size: 12px;
+&__textarea {
+        width: 448px;
+        height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding-top: 12px;
+        padding-left: 16px;
+        position: relative;
+        top: -26px;
+        margin-top: 4px;
+        outline: none;
+        transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__textarea:focus {
+        border: 2px solid var(--mark-color);
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.166;
+        color: var(--third-color);
+        letter-spacing: 0.01em;
+        position: relative;
+        top: -24px;
+        margin-top: 10px;
+    }
+.form-modal__place-for-comment {
+    font-size: 12px;
+}
+}
+
+
+
